@@ -1,0 +1,338 @@
+@font-face {
+  font-family: "Myriad";
+  src: url("../Assets/font/Myriad-Pro.otf");
+  font-style: normal;
+  font-weight: 900;
+}
+
+.top-bar {
+  width: 90%;
+}
+
+#contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+}
+
+#contact img {
+  max-width: 80%;
+  z-index: -2;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#contact p {
+  text-align: start;
+  margin: 0rem 0rem 3rem 0rem;
+}
+
+#contact .form {
+  margin-left: 10rem;
+  margin-top: 7rem;
+}
+
+#contact .contact-form {
+  z-index: 100;
+}
+
+#contact .contact-form form input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.5rem;
+  padding: 0.65rem;
+  width: 30vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 0.5rem;
+  border: 2px solid #efefef;
+  border-radius: 10px;
+}
+
+#contact .contact-form form input[type="text"]:focus {
+  outline: 2px solid #a3a3a3;
+}
+
+#contact .contact-form form label {
+  padding: 0.5rem 0rem;
+}
+
+#contact .contact-form form textarea {
+  padding: 0.65rem;
+  margin-top: 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.5rem;
+  border: 2px solid #efefef;
+  border-radius: 10px;
+  width: 30vw;
+  font-size: 0.87rem;
+}
+
+#contact .contact-form form textarea ::-webkit-input-placeholder {
+  margin-top: 0.5rem;
+  font-size: 1.5em;
+}
+
+#contact .contact-form form textarea :-ms-input-placeholder {
+  margin-top: 0.5rem;
+  font-size: 1.5em;
+}
+
+#contact .contact-form form textarea ::-ms-input-placeholder {
+  margin-top: 0.5rem;
+  font-size: 1.5em;
+}
+
+#contact .contact-form form textarea ::placeholder {
+  margin-top: 0.5rem;
+  font-size: 1.5em;
+}
+
+#contact .contact-form form textarea:focus {
+  outline: 2px solid #a3a3a3;
+}
+
+#contact h1 {
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  font-family: "Myriad";
+  font-weight: 900;
+  text-align: center;
+}
+
+#contact button {
+  margin-bottom: 1rem;
+}
+
+footer .left-footer p {
+  font-size: 0.95rem;
+  width: 100%;
+}
+
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 3rem auto;
+  border-radius: 8px;
+}
+
+#status.success {
+  background-color: #1695b5;
+  -webkit-animation: status 4s ease forwards;
+          animation: status 4s ease forwards;
+  color: #fff;
+}
+
+#status.error {
+  background-color: #fa815c;
+  color: white;
+  -webkit-animation: status 4s ease forwards;
+          animation: status 4s ease forwards;
+}
+
+@-webkit-keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 1281px) {
+  #contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #contact img {
+    max-width: 80%;
+    z-index: -2;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #contact .form {
+    margin-left: 0rem;
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  #contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #contact img {
+    max-width: 80%;
+    z-index: -2;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #contact .form {
+    margin-left: 0rem;
+    margin-top: 7rem;
+  }
+  #contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+  }
+  #contact img {
+    max-width: 80%;
+    z-index: -2;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #contact p {
+    text-align: start;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+  #contact .form {
+    margin-left: 1rem;
+    margin-top: 7rem;
+  }
+  #contact .contact-form {
+    z-index: 100;
+  }
+  #contact h1 {
+    font-size: 2.5rem;
+    line-height: 2rem;
+    font-family: "Myriad";
+    font-weight: 900;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  body {
+    overflow-x: hidden;
+  }
+  .top-bar {
+    margin-top: 1rem;
+  }
+  .logo {
+    text-align: start;
+    margin-right: -2rem;
+    margin-top: 1rem;
+    position: absolute;
+    top: 0;
+    left: -2%;
+  }
+  #contact {
+    margin-top: 7rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #contact img {
+    max-width: 80%;
+    z-index: -2;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: none;
+  }
+  #contact h1 {
+    font-size: 2.3rem;
+    line-height: 2.0rem;
+    font-family: "Myriad";
+  }
+  #contact p {
+    text-align: start;
+    font-size: 0.90rem;
+    margin: 0.4rem 0rem 3rem 0rem;
+  }
+  #contact .contact-form {
+    z-index: 100;
+  }
+  #contact .contact-form form input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0.5rem;
+    padding: 0.65rem;
+    width: 70vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 0.5rem;
+    border: 2px solid #efefef;
+    border-radius: 10px;
+  }
+  #contact .contact-form form label {
+    padding: 0.5rem 0rem;
+  }
+  #contact .contact-form form textarea {
+    padding: 0.65rem;
+    margin-top: 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0.5rem;
+    border: 2px solid #efefef;
+    border-radius: 10px;
+    width: 70vw;
+  }
+  #contact .contact-form form textarea ::-webkit-input-placeholder {
+    margin-top: 0.5rem;
+    font-size: 1.5em;
+  }
+  #contact .contact-form form textarea :-ms-input-placeholder {
+    margin-top: 0.5rem;
+    font-size: 1.5em;
+  }
+  #contact .contact-form form textarea ::-ms-input-placeholder {
+    margin-top: 0.5rem;
+    font-size: 1.5em;
+  }
+  #contact .contact-form form textarea ::placeholder {
+    margin-top: 0.5rem;
+    font-size: 1.5em;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
